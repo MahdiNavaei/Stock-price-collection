@@ -20,7 +20,7 @@ try:
         last_timestamp = pd.to_datetime(last_row[0])
 except (FileNotFoundError, IndexError):
     last_timestamp = None
-
+    
 # Download historical data for the past 7 days with a 1-minute interval
 historicalData = yf.download(tickerSymbol, period='7d', interval='1m')
 
