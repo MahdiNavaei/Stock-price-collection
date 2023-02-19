@@ -9,7 +9,7 @@ tickerSymbol = '^DJI'
 # Define the filename to save the data
 filename = 'dji_prices.csv'
 
-# Define the time interval for updates (in seconds)
+#  Define the time interval for updates (in seconds)
 update_interval = 60
 
 # Get the last timestamp in the CSV file
